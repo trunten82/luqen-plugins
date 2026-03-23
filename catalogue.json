@@ -18,18 +18,22 @@
       "displayName": "Okta",
       "type": "auth",
       "version": "1.0.0",
-      "description": "Single sign-on via Okta (coming soon)",
+      "description": "Single sign-on via Okta",
       "packageName": "@luqen/plugin-auth-okta",
-      "icon": "okta"
+      "icon": "okta",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/auth-okta-v1.0.0/luqen-plugin-auth-okta-1.0.0.tgz",
+      "checksum": "sha256:3c1179f839a7fb978c353e459183437414a7fe6cde72ce9e796ef2f0639a9ad8"
     },
     {
       "name": "auth-google",
       "displayName": "Google Workspace",
       "type": "auth",
       "version": "1.0.0",
-      "description": "Single sign-on via Google Workspace (coming soon)",
+      "description": "Single sign-on via Google Workspace",
       "packageName": "@luqen/plugin-auth-google",
-      "icon": "google"
+      "icon": "google",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/auth-google-v1.0.0/luqen-plugin-auth-google-1.0.0.tgz",
+      "checksum": "sha256:488846ea44312f1fec8077706f9abf2ab4beca08ee8fd1c5777555d7a5d558fc"
     },
     {
       "name": "notify-slack",
