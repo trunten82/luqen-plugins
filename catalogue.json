@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-23T12:00:00Z",
+  "plugins": [
+    {
+      "name": "auth-entra",
+      "displayName": "Azure Entra ID",
+      "type": "auth",
+      "version": "1.0.0",
+      "description": "Single sign-on via Azure Entra ID (formerly Azure AD)",
+      "packageName": "@luqen/plugin-auth-entra",
+      "icon": "entra",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/auth-entra-v1.0.0/luqen-plugin-auth-entra-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    },
+    {
+      "name": "auth-okta",
+      "displayName": "Okta",
+      "type": "auth",
+      "version": "1.0.0",
+      "description": "Single sign-on via Okta",
+      "packageName": "@luqen/plugin-auth-okta",
+      "icon": "okta",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/auth-okta-v1.0.0/luqen-plugin-auth-okta-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    },
+    {
+      "name": "auth-google",
+      "displayName": "Google Workspace",
+      "type": "auth",
+      "version": "1.0.0",
+      "description": "Single sign-on via Google Workspace",
+      "packageName": "@luqen/plugin-auth-google",
+      "icon": "google",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/auth-google-v1.0.0/luqen-plugin-auth-google-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    },
+    {
+      "name": "notify-slack",
+      "displayName": "Slack Notifications",
+      "type": "notification",
+      "version": "1.0.0",
+      "description": "Send scan results and alerts to Slack channels",
+      "packageName": "@luqen/plugin-notify-slack",
+      "icon": "slack",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-slack-v1.0.0/luqen-plugin-notify-slack-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    },
+    {
+      "name": "notify-teams",
+      "displayName": "Microsoft Teams",
+      "type": "notification",
+      "version": "1.0.0",
+      "description": "Send scan results and alerts to Microsoft Teams channels",
+      "packageName": "@luqen/plugin-notify-teams",
+      "icon": "teams",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-teams-v1.0.0/luqen-plugin-notify-teams-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    },
+    {
+      "name": "notify-email",
+      "displayName": "Email Notifications & Reports",
+      "type": "notification",
+      "version": "1.0.0",
+      "description": "Send scan notifications and scheduled email reports via SMTP",
+      "packageName": "@luqen/plugin-notify-email",
+      "icon": "email",
+      "adminPages": [
+        { "path": "/admin/email-reports", "title": "Email Reports", "icon": "envelope", "permission": "admin.system" }
+      ],
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-email-v1.0.0/luqen-plugin-notify-email-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    },
+    {
+      "name": "storage-s3",
+      "displayName": "AWS S3 Storage",
+      "type": "storage",
+      "version": "1.0.0",
+      "description": "Store reports and scan data in AWS S3",
+      "packageName": "@luqen/plugin-storage-s3",
+      "icon": "aws",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/storage-s3-v1.0.0/luqen-plugin-storage-s3-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    },
+    {
+      "name": "storage-azure",
+      "displayName": "Azure Blob Storage",
+      "type": "storage",
+      "version": "1.0.0",
+      "description": "Store reports and scan data in Azure Blob Storage",
+      "packageName": "@luqen/plugin-storage-azure",
+      "icon": "azure",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/storage-azure-v1.0.0/luqen-plugin-storage-azure-1.0.0.tgz",
+      "checksum": "sha256:placeholder"
+    }
+  ]
+}
