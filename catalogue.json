@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-23T15:00:00Z",
+  "updatedAt": "2026-03-28T15:00:00Z",
   "plugins": [
     {
       "name": "auth-entra",
@@ -66,7 +66,12 @@
       "packageName": "@luqen/plugin-notify-email",
       "icon": "email",
       "adminPages": [
-        { "path": "/admin/email-reports", "title": "Email Reports", "icon": "envelope", "permission": "admin.system" }
+        {
+          "path": "/admin/email-reports",
+          "title": "Email Reports",
+          "icon": "envelope",
+          "permission": "admin.system"
+        }
       ],
       "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-email-v1.0.0/luqen-plugin-notify-email-1.0.0.tgz",
       "checksum": "sha256:1ef953d040856996f7d8456ce78b56531c21c45d66a71db7450d64b83a1d92a8"
@@ -125,6 +130,39 @@
       "icon": "axe",
       "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/scanner-axe-v1.0.0/luqen-plugin-scanner-axe-1.0.0.tgz",
       "checksum": "sha256:f83c3eccc47e6de2add9ad63e4f79402a9cf7065464eb2f817aedaa60ab5f1d6"
+    },
+    {
+      "name": "git-host-github",
+      "displayName": "GitHub",
+      "type": "git-host",
+      "version": "1.0.0",
+      "description": "Git integration with GitHub and GitHub Enterprise for PR creation from accessibility fixes",
+      "packageName": "@luqen/plugin-git-host-github",
+      "icon": "git",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/git-host-github-v1.0.0/luqen-plugin-git-host-github-1.0.0.tgz",
+      "checksum": "sha256:1b6465034cdb065ae48f0271f6cf3dc046101bc74c6a0642c8f343d8419a00e8"
+    },
+    {
+      "name": "git-host-gitlab",
+      "displayName": "GitLab",
+      "type": "git-host",
+      "version": "1.0.0",
+      "description": "Git integration with GitLab for merge request creation from accessibility fixes",
+      "packageName": "@luqen/plugin-git-host-gitlab",
+      "icon": "git",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/git-host-gitlab-v1.0.0/luqen-plugin-git-host-gitlab-1.0.0.tgz",
+      "checksum": "sha256:25838fdd30756ea54ed277cf5684739c061b7718393e439d662ed78013780967"
+    },
+    {
+      "name": "git-host-azure-devops",
+      "displayName": "Azure DevOps",
+      "type": "git-host",
+      "version": "1.0.0",
+      "description": "Git integration with Azure DevOps for pull request creation from accessibility fixes",
+      "packageName": "@luqen/plugin-git-host-azure-devops",
+      "icon": "git",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/git-host-azure-devops-v1.0.0/luqen-plugin-git-host-azure-devops-1.0.0.tgz",
+      "checksum": "sha256:90b095329ca59570e36dcf275c857b1d5fced2886d484384fbf45f91b4dd6c70"
     }
   ]
 }
