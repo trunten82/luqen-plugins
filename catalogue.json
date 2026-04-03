@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-23T15:00:00Z",
+  "updatedAt": "2026-03-28T15:00:00Z",
   "plugins": [
     {
       "name": "auth-entra",
@@ -132,48 +132,37 @@
       "checksum": "sha256:f83c3eccc47e6de2add9ad63e4f79402a9cf7065464eb2f817aedaa60ab5f1d6"
     },
     {
-      "name": "llm-anthropic",
-      "displayName": "Anthropic Claude (LLM)",
-      "type": "llm",
+      "name": "git-host-github",
+      "displayName": "GitHub",
+      "type": "git-host",
       "version": "1.0.0",
-      "description": "Uses Anthropic Claude to extract WCAG requirements from regulatory pages",
-      "packageName": "@luqen/plugin-llm-anthropic",
-      "icon": "llm",
-      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/llm-anthropic-v1.0.0/luqen-plugin-llm-anthropic-1.0.0.tgz",
-      "checksum": "sha256:3779d1d4774710e9d2d52df36ee4b59aa34991e7aebcec3671c87c5fcb729143"
+      "description": "Git integration with GitHub and GitHub Enterprise for PR creation from accessibility fixes",
+      "packageName": "@luqen/plugin-git-host-github",
+      "icon": "git",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/git-host-github-v1.0.0/luqen-plugin-git-host-github-1.0.0.tgz",
+      "checksum": "sha256:1b6465034cdb065ae48f0271f6cf3dc046101bc74c6a0642c8f343d8419a00e8"
     },
     {
-      "name": "llm-openai",
-      "displayName": "OpenAI ChatGPT (LLM)",
-      "type": "llm",
+      "name": "git-host-gitlab",
+      "displayName": "GitLab",
+      "type": "git-host",
       "version": "1.0.0",
-      "description": "Uses OpenAI ChatGPT to extract WCAG requirements from regulatory pages",
-      "packageName": "@luqen/plugin-llm-openai",
-      "icon": "llm",
-      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/llm-openai-v1.0.0/luqen-plugin-llm-openai-1.0.0.tgz",
-      "checksum": "sha256:63f74e979066a16939ca8dce7c394a0e817b2b1249d0490533d71d8ee8a63d51"
+      "description": "Git integration with GitLab for merge request creation from accessibility fixes",
+      "packageName": "@luqen/plugin-git-host-gitlab",
+      "icon": "git",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/git-host-gitlab-v1.0.0/luqen-plugin-git-host-gitlab-1.0.0.tgz",
+      "checksum": "sha256:25838fdd30756ea54ed277cf5684739c061b7718393e439d662ed78013780967"
     },
     {
-      "name": "llm-gemini",
-      "displayName": "Google Gemini (LLM)",
-      "type": "llm",
+      "name": "git-host-azure-devops",
+      "displayName": "Azure DevOps",
+      "type": "git-host",
       "version": "1.0.0",
-      "description": "Uses Google Gemini to extract WCAG requirements from regulatory pages",
-      "packageName": "@luqen/plugin-llm-gemini",
-      "icon": "llm",
-      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/llm-gemini-v1.0.0/luqen-plugin-llm-gemini-1.0.0.tgz",
-      "checksum": "sha256:3b4d8648b6257866b9a79a22103345909bb93c74048a7676933974691ff70cae"
-    },
-    {
-      "name": "llm-ollama",
-      "displayName": "Ollama Local (LLM)",
-      "type": "llm",
-      "version": "1.0.0",
-      "description": "Uses a locally-running Ollama instance to extract WCAG requirements from regulatory pages",
-      "packageName": "@luqen/plugin-llm-ollama",
-      "icon": "llm",
-      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/llm-ollama-v1.0.0/luqen-plugin-llm-ollama-1.0.0.tgz",
-      "checksum": "sha256:64216055ca88212fb56ab2d40588c329fb6d7cd38ba0eae1880f15a2a09be226"
+      "description": "Git integration with Azure DevOps for pull request creation from accessibility fixes",
+      "packageName": "@luqen/plugin-git-host-azure-devops",
+      "icon": "git",
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/git-host-azure-devops-v1.0.0/luqen-plugin-git-host-azure-devops-1.0.0.tgz",
+      "checksum": "sha256:90b095329ca59570e36dcf275c857b1d5fced2886d484384fbf45f91b4dd6c70"
     }
   ]
 }
