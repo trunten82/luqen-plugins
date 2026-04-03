@@ -1,0 +1,17 @@
+{
+  "name": "@luqen/plugin-llm-gemini",
+  "version": "1.0.0",
+  "description": "Google Gemini LLM provider for Luqen compliance regulation parsing",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "pack": "npm run build && npm pack"
+  },
+  "keywords": ["luqen", "plugin", "llm", "gemini", "google"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
