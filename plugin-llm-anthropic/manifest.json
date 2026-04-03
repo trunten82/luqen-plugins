@@ -1,0 +1,11 @@
+{
+  "name": "llm-anthropic",
+  "displayName": "Anthropic Claude (LLM)",
+  "type": "llm",
+  "version": "1.0.0",
+  "description": "Uses Anthropic Claude to extract WCAG requirements from regulatory pages",
+  "configSchema": [
+    { "key": "apiKey", "label": "Anthropic API Key", "type": "secret", "required": true, "description": "Get your key at console.anthropic.com" },
+    { "key": "model", "label": "Model", "type": "select", "required": true, "default": "claude-sonnet-4-20250514", "options": ["claude-sonnet-4-20250514", "claude-haiku-4-5-20251001", "claude-opus-4-20250514"] }
+  ]
+}

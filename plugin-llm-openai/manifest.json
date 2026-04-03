@@ -1,0 +1,12 @@
+{
+  "name": "llm-openai",
+  "displayName": "OpenAI ChatGPT (LLM)",
+  "type": "llm",
+  "version": "1.0.0",
+  "description": "Uses OpenAI ChatGPT to extract WCAG requirements from regulatory pages",
+  "configSchema": [
+    { "key": "apiKey", "label": "OpenAI API Key", "type": "secret", "required": true, "description": "Get your key at platform.openai.com" },
+    { "key": "model", "label": "Model", "type": "select", "required": true, "default": "gpt-4o", "options": ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo", "gpt-3.5-turbo"] },
+    { "key": "baseUrl", "label": "Base URL", "type": "string", "required": false, "default": "https://api.openai.com/v1", "description": "Override for Azure OpenAI or compatible endpoints" }
+  ]
+}
