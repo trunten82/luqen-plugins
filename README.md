@@ -23,6 +23,8 @@ The official plugin catalogue for [Luqen](https://github.com/trunten82/luqen), a
 
 **14 plugins** across 5 types: auth, notification, storage, scanner, git-host.
 
+> **Note:** LLM functionality is now provided by the `@luqen/llm` module (since v2.6.0). The `plugin-llm-ollama`, `plugin-llm-openai`, `plugin-llm-anthropic`, and `plugin-llm-gemini` packages have been removed from this catalogue.
+
 ## Plugin Types
 
 | Type | Description |
