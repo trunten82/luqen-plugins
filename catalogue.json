@@ -39,30 +39,30 @@
       "name": "notify-slack",
       "displayName": "Slack Notifications",
       "type": "notification",
-      "version": "1.0.0",
-      "description": "Send scan results and alerts to Slack channels",
+      "version": "1.1.0",
+      "description": "Send scan results and alerts to Slack channels. v1.1.0 consumes the dashboard dispatcher's renderedBlocks / iconUrl when present.",
       "packageName": "@luqen/plugin-notify-slack",
       "icon": "slack",
-      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-slack-v1.0.0/luqen-plugin-notify-slack-1.0.0.tgz",
-      "checksum": "sha256:99f22db09f4984fa23bb823abb4b8a2b9461289a53937d0bae849996b39f6f7a"
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-slack-v1.1.0/luqen-plugin-notify-slack-1.1.0.tgz",
+      "checksum": "sha256:eac2d438a42d27504197bd358323f521db844b2c338eb8fcd51a763c7c753167"
     },
     {
       "name": "notify-teams",
       "displayName": "Microsoft Teams",
       "type": "notification",
-      "version": "1.0.0",
-      "description": "Send scan results and alerts to Microsoft Teams channels",
+      "version": "1.1.0",
+      "description": "Send scan results and alerts to Microsoft Teams channels. v1.1.0 consumes the dashboard dispatcher's renderedAdaptiveCard / logoUrl when present.",
       "packageName": "@luqen/plugin-notify-teams",
       "icon": "teams",
-      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-teams-v1.0.0/luqen-plugin-notify-teams-1.0.0.tgz",
-      "checksum": "sha256:bb22a46ada7b720f44da9f0b5234dc5ec7a1c31a089f64c173c737e44121bc94"
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-teams-v1.1.0/luqen-plugin-notify-teams-1.1.0.tgz",
+      "checksum": "sha256:f6585f89e51a8c828b84c41becb600b89361c1ea606f8eb6a80f6eeb656406b3"
     },
     {
       "name": "notify-email",
       "displayName": "Email Notifications & Reports",
       "type": "notification",
-      "version": "1.0.0",
-      "description": "Send scan notifications and scheduled email reports via SMTP",
+      "version": "1.1.0",
+      "description": "Send scan notifications and scheduled email reports via SMTP. v1.1.0 consumes the dashboard dispatcher's renderedHtml / renderedSubject / renderedPlaintext / logoAttachment / brandColor when present.",
       "packageName": "@luqen/plugin-notify-email",
       "icon": "email",
       "adminPages": [
@@ -73,8 +73,8 @@
           "permission": "admin.system"
         }
       ],
-      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-email-v1.0.0/luqen-plugin-notify-email-1.0.0.tgz",
-      "checksum": "sha256:1ef953d040856996f7d8456ce78b56531c21c45d66a71db7450d64b83a1d92a8"
+      "downloadUrl": "https://github.com/trunten82/luqen-plugins/releases/download/notify-email-v1.1.0/luqen-plugin-notify-email-1.1.0.tgz",
+      "checksum": "sha256:bde57a86e6ff7884dc2233769afc2d2d1c0a8b6e5f98115979abc4c13bb152ff"
     },
     {
       "name": "storage-s3",
